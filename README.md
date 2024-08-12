@@ -65,4 +65,7 @@ In Arduino IDE:
 5. Connect USB Serial converter: cross TX and RX. VCC, GND. Connect GPIO0 to GND to enter software upload mode
 6. Set Tooles -> Port -> To the COM port where your converter showed up
 7. Upload
- 
+
+ ## prototyping
+
+...
