@@ -11,22 +11,22 @@
 #include "RTClib.h"
 #include <ArduinoOTA.h>
 
-#define ADMIN_PASSWORD                        "5151"
+#define ADMIN_PASSWORD        "admin"
 
 #define LANG_EN 0
 #define LANG_PL 1
 
 // select LANG_EN or LANG_PL
 #define LANGUAGE LANG_EN
-#define WELCOME_LINE5        "<cache>"
-#define WELCOME_LINE6        "<name>"
+#define WELCOME_LINE5        " <cache>"
+#define WELCOME_LINE6        "    <name>"
 #define WELCOME_LINE8        "PanJanek123"
 
 #if LANGUAGE == LANG_EN
 
 #define WELCOME_LINE1        "Digital"
 #define WELCOME_LINE2        "Logbook"
-#define WELCOME_LINE3        "of"
+#define WELCOME_LINE3        "   of"
 #define WELCOME_LINE4        "geocache"
 #define WELCOME_LINE7        "by"
 #define WELCOME_LINE8        "PanJanek123"
@@ -613,6 +613,7 @@ void welcome() {
   display.ssd1306_command(SSD1306_DISPLAYON);
   display.setRotation(SCREEN_ROTATION);   
   display.clearDisplay();
+  display.
   display.drawBitmap(0, 0, welcome_logo, 64,64, WHITE);
   oledTextP(1, 64+32-7*6/2, 0,  F(WELCOME_LINE1)); 
   oledTextP(1, 64+32-7*6/2, 8,  F(WELCOME_LINE2)); 
