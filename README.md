@@ -68,4 +68,6 @@ In Arduino IDE:
 
  ## prototyping
 
-...
+![UI](https://github.com/panjanek/geocaching-esp8266logbook/blob/683a2342864a5b175f347cd586ac7b66349ac6dd/img/logbook2-animation.gif "ui")
+
+![Prototype](https://github.com/panjanek/geocaching-esp8266logbook/blob/683a2342864a5b175f347cd586ac7b66349ac6dd/img/logbook2-proto.png "prototype")
