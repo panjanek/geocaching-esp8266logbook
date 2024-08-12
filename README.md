@@ -50,4 +50,19 @@ wiring diagram pending...
 2. Adafruit SSD1306 OLED library: https://github.com/adafruit/Adafruit_SSD1306
 3. Adafruit RTClib: https://github.com/adafruit/RTClib
 
+### customize to your geocache
+1. Select language in `#define LANGUAGE LANG_EN` supported `LANG_EN` and `LANG_PL`. Feel free to make pull request with more languages.
+2. Set cache name and author in `WELCOME_LINE5`, `WELCOME_LINE6` and `WELCOME_LINE8`
+3. Set administrator password in `ADMIN_PASSWORD`
    
+### steps to upload code to esp8266
+In Arduino IDE:
+
+1. Install esp8266 board plugin: https://github.com/esp8266/Arduino (may require adding Board Manager URLs in File->Preferences. Add Additional Board Managers URL https://arduino.esp8266.com/stable/package_esp8266com_index.json )
+2. Set: Tools -> Board -> esp8266 -> Generic ESP8266 Module
+3. Set: Tools -> Flash Size -> 4MB (FS:2MB, OTA:~1019KB)
+4. Compile the code
+5. Connect USB Serial converter: cross TX and RX. VCC, GND. Connect GPIO0 to GND to enter software upload mode
+6. Set Tooles -> Port -> To the COM port where your converter showed up
+7. Upload
+ 
