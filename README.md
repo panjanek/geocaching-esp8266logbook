@@ -26,5 +26,28 @@ It has bigger OLED screen, better UI, more features and RTC clock.
    * Enable WiFi network to download logbook and system log as text files
    * WiFi OTA software update
    * Clear logbook and system log
- 
-  
+
+## Hardware
+
+### parts
+
+1. ESP8266 module with 4MB Flash. For example ESP-07S. Important: without builtin USB! For example: https://www.ebay.com.au/itm/384751580612 or raw module
+2. SSD1306 I2C 128x64 OLED screen
+3. PCF8523 I2C Real Time Clock
+4. 2N2222 NPN Transistor (as a switch for OLED power pin)
+5. 10KOhm resistor
+6. Three pushbuttons like this https://www.ebay.co.uk/itm/256536546595
+7. Serial USB converter for programming (like FT232)
+
+### wiring
+
+wiring diagram pending...
+
+## Software
+
+### dependencies
+1. Arduino IDE 2.3+
+2. Adafruit SSD1306 OLED library: https://github.com/adafruit/Adafruit_SSD1306
+3. Adafruit RTClib: https://github.com/adafruit/RTClib
+
+   
