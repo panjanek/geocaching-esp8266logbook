@@ -4,7 +4,7 @@ Each geocaching hide contains small paper logbook where people log their visit u
 Additionally, geocache can contain some fun objects.
 This project is a geocaching gadget: Digital logbook with tiny OLED screen, operated with two push buttons and simple UI.
 Geocachers can enter their nick to the digital logbook or browse the list of saved nicks.
-This is improved version of simpled digital logbook from here: https://github.com/panjanek/geocaching-attiny85logbook
+This is improved version of simple digital logbook from here: https://github.com/panjanek/geocaching-attiny85logbook
 It has bigger OLED screen, better UI, more features and RTC clock.
 
 ## Features
