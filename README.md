@@ -13,7 +13,7 @@ It has bigger OLED screen, better UI, more features and RTC clock.
 * Current date is saved for each entry
 * Logbook entries saved in permanent EEPROM memory
 * Browsing list of saved entries with dates
-* Auto-sleep after ~30s of inacvtivity. 
+* Auto-sleep after ~30s of inacvtivity. Time to sleep showed as a shrinking bar at the bottom.
 * Wakes on reset button press.
 * Low current in sleep mode - 20uA
 * Around 25mA when active
