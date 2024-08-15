@@ -17,6 +17,7 @@ It has bigger OLED screen, better UI, more features and RTC clock.
 * Wakes on reset button press.
 * Low current in sleep mode - 20uA
 * Around 25mA when active
+* Low battery indicator in OLED ui
 * Can be powered from two AA or AAA batteries or CR123 battery (2.8V - 5V) for year at least
 * System log containing various information, battery voltage and more
 * Service mode after entering secret admin password. In service mode you can:
